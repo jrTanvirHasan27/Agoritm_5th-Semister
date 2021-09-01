@@ -20,7 +20,7 @@ void insertionsort(int arr[], int n)
 
 int main()
 {
-    int n,arr[1000],i,j,s=0;
+    int n, arr[1000], i;
 
     scanf("%d", &n);
 
@@ -30,6 +30,7 @@ int main()
     }
 
     insertionsort(arr,n);
+    
     for(i=0; i<n; i++)
     {
         printf("%d\n", arr[i]);
